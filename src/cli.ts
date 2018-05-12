@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import * as cmder from 'commander'
 import * as path from 'path'
 import * as fs from 'fs'
