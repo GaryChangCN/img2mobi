@@ -1,0 +1,40 @@
+{
+    "name": "img2mobi",
+    "version": "0.0.1",
+    "description": "convert image or images fold to mobi",
+    "main": "dist/index.js",
+    "scripts": {
+        "dev": "no",
+        "build": "no build"
+    },
+    "bin": {
+        "img2mobi": "dist/cli.js"
+    },
+    "files": [
+        "dist",
+        "epub",
+        "bin"
+    ],
+    "engines": {
+        "node": ">=7.6.0"
+    },
+    "keywords": [
+        "mobi",
+        "image",
+        "images",
+        "ebook",
+        "kindle"
+    ],
+    "author": "gary",
+    "license": "MIT",
+    "devDependencies": {
+        "nokit": "^0.27.1",
+        "tslint": "^5.10.0",
+        "typescript": "^2.8.3"
+    },
+    "dependencies": {
+        "@types/node": "^6.0.110",
+        "commander": "^2.15.1",
+        "epub-generator": "^1.0.1"
+    }
+}
