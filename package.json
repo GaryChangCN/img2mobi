@@ -1,6 +1,6 @@
 {
     "name": "img2mobi",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "convert image or images fold to mobi",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",

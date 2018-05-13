@@ -18,6 +18,7 @@ cmder
     .version(json.version)
     .option('-i, --img-path <str>', 'image file or fold')
     .option('-o, --out-path <str>', 'out path')
+    .option('-v, --verbose <str>', 'verbose')
     .option('--title [optional]', 'mobi file name')
     .option('--author [optional]', 'mobi file author')
     .option('--desc [optional]', 'mobi file description')
@@ -42,4 +43,4 @@ const opt = {
     description
 } as Options
 
-img2mobi(imgPath, outPath, opt)
+img2mobi(imgPath, outPath, opt, cmder.hasOwnProperty('verbose'))
